@@ -12,6 +12,6 @@ export const useWidget = (client, target, options) => {
       const elem = document.getElementById(target)
       elem.remove()
     }
-  }, [client, options])
+  }, [client, options, window.StyliticsMainAndDetailWidget])
   return null
 }
